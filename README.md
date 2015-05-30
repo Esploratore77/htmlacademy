@@ -1,3 +1,3 @@
-# HTML Academy html/css fundamentals course projects
+# HTML Academy базовый интенсив
 
-Exercise projects for [HTML Academy](https://htmlacademy.ru/) course fundamentals of html/css.  
+Учебные проекты базового интенсива [HTML Academy](https://htmlacademy.ru/) course.  
