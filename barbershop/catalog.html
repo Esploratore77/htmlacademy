@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Барбершоп «Бородинский»</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container clearfix">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Главная</a>
+            </li>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a class="active" href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a href="#" class="login">Вход</a>
+        </div>
+      </div>
+    </header>
+    
+    <div class="container">
+      <h1>Средства для ухода</h1>
+      <nav class="breadcrumbs">
+        <ul>
+          <li>
+            <a href="#">ГЛАВНАЯ</a>
+          </li>
+          <li>
+            <a href="#">МАГАЗИН</a>
+          </li>
+          <li>
+            <a class="breadcrumbs-current" href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+          </li>
+        </ul> 
+      </nav>
+      <div class="catalog">
+        <section class="catalog-filter">
+          <form action="/echo" method="post">
+            <div class="manufacturers">
+              <h2>ПРОИЗВОДИТЕЛИ:</h2>
+              <!-- Думаю логичнее будет указывать в качестве value не название производителя, а его 
+                  идентификатор из базы данных. Поэтому здесь поставил числа. -->
+              <input type="checkbox" name="manufacturers[]" id="baxter" value="1" checked>
+              <label for="baxter">BAXTER OF CALIFORNIA</label><br>
+              <input type="checkbox" name="manufacturers[]" id="natty" value="2">
+              <label for="natty">MR NATTY</label><br>                          
+              <input type="checkbox" name="manufacturers[]" id="suavecito" value="3" checked>
+              <label for="suavecito">SUAVECITO</label><br>
+              <input type="checkbox" name="manufacturers[]" id="malin-goetz" value="4">
+              <label for="malin-goetz">MALIN GOETZ</label><br>
+              <input type="checkbox" name="manufacturers[]" id="murrays" value="5">
+              <label for="murrays">MURRAY'S</label><br>
+              <input type="checkbox" name="manufacturers[]" id="american-crew" value="6" checked>
+              <label for="american-crew">AMERICAN CREW</label>
+            </div>
+            <div class="product-types">
+              <!-- value здесь тоже лучше задать перечислением -->
+              <input type="radio" name="product" id="shaving" value="1">
+              <label for="shaving">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label><br>
+              <input type="radio" name="product" id="means" value="2">
+              <label for="means">СРЕДСТВА ДЛЯ УХОДА</label><br>
+              <input type="radio" name="product" id="accessories" value="3">
+              <label for="accessories">АКСЕССУАРЫ</label>
+            </div>
+            <button type="submit" class="btn">показать</button>
+          </form>
+        </section>
+        <section class="catalog-items">
+          <div class="catalog-item">
+            <img src="http://placehold.it/150x100" 
+              alt="Набор для путешествий BAXTER OF CALIFORNIA" width="150" height="100">
+            <div class="item-name">Набор для путешествий &laquo;BAXTER OF&nbsp;CALIFORNIA&raquo;</div>
+            <span class="item-price">2 900 РУБ.</span>
+            <a class="btn" href="#">КУПИТЬ</a>
+          </div>
+          <div class="catalog-item">
+            <img src="http://placehold.it/150x100" 
+              alt="Увлажняющий кондиционер BAXTER OF CALIFORNIA" width="150" height="100">
+            <div class="item-name">Увлажняющий кондиционер &laquo;BAXTER OF&nbsp;CALIFORNIA&raquo;</div>
+            <span class="item-price">750 РУБ.</span>
+            <a class="btn" href="#">КУПИТЬ</a>
+          </div>
+          <div class="catalog-item">
+            <img src="http://placehold.it/150x100" 
+              alt="Гель для волос SAUVECITO" width="150" height="100">
+            <div class="item-name">Гель для волос &laquo;SAUVECITO&raquo;</div>
+            <span class="item-price">290 РУБ.</span>
+            <a class="btn" href="#">КУПИТЬ</a>
+          </div>
+          <div class="catalog-item">
+            <img src="http://placehold.it/150x100" 
+              alt="Глина для укладки волос AMERICAN CREW" width="150" height="100">
+            <div class="item-name">Глина для укладки волос &laquo;AMERICAN CREW&raquo;</div>
+            <span class="item-price">500 РУБ.</span>
+            <a class="btn" href="#">КУПИТЬ</a>
+          </div>
+          <div class="catalog-item">
+            <img src="http://placehold.it/150x100" 
+              alt="Гель для волос AMERICAN CREW" width="150" height="100">
+            <div class="item-name">Гель для волос &laquo;AMERICAN CREW&raquo;</div>
+            <span class="item-price">300 РУБ.</span>
+            <a class="btn" href="#">КУПИТЬ</a>
+          </div>
+          <div class="catalog-item">
+            <img src="http://placehold.it/150x100" 
+              alt="Набор для бритья BAXTER OF CALIFORNIA" width="150" height="100">
+            <div class="item-name">Набор для бритья &laquo;BAXTER OF&nbsp;CALIFORNIA&raquo;</div>
+            <span class="item-price">3 900 РУБ.</span>
+            <a class="btn" href="#">КУПИТЬ</a>
+          </div>
+          <nav class="catalog-navigation">
+            <ul>
+              <li>
+                <a href="#">1</a>
+              </li>
+              <li>
+                <a class="catalog-navigation-current" href="#">2</a>
+              </li>
+              <li>
+                <a href="#">3</a>
+              </li>
+              <li>
+                <a href="#">4</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+    </div>
+    
+    <footer class="main-footer">
+      <div class="container clearfix">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          телефон: +7 (495) 666-02-66
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+          <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+          <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Дизайн сайта:</p>
+          <a href="#" class="btn">htmlacademy.ru</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
