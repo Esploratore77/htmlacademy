@@ -40,13 +40,13 @@
       <nav class="breadcrumbs">
         <ul>
           <li>
-            <a href="#">ГЛАВНАЯ</a>
+            <a href="#">Главная</a>
           </li>
           <li>
-            <a href="#">МАГАЗИН</a>
+            <a href="#">Магазин</a>
           </li>
           <li>
-            <a class="breadcrumbs-current" href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+            <a class="breadcrumbs-current" href="#">Средства для ухода</a>
           </li>
         </ul> 
       </nav>
@@ -54,30 +54,31 @@
         <section class="catalog-filter">
           <form action="/echo" method="post">
             <div class="manufacturers">
-              <h2>ПРОИЗВОДИТЕЛИ:</h2>
+              <h2>Производители:</h2>
               <!-- Думаю логичнее будет указывать в качестве value не название производителя, а его 
                   идентификатор из базы данных. Поэтому здесь поставил числа. -->
               <input type="checkbox" name="manufacturers[]" id="baxter" value="1" checked>
-              <label for="baxter">BAXTER OF CALIFORNIA</label><br>
+              <label for="baxter">Baxter of California</label><br>
               <input type="checkbox" name="manufacturers[]" id="natty" value="2">
-              <label for="natty">MR NATTY</label><br>                          
+              <label for="natty">Mr Natty</label><br>                          
               <input type="checkbox" name="manufacturers[]" id="suavecito" value="3" checked>
-              <label for="suavecito">SUAVECITO</label><br>
+              <label for="suavecito">Suavecito</label><br>
               <input type="checkbox" name="manufacturers[]" id="malin-goetz" value="4">
-              <label for="malin-goetz">MALIN GOETZ</label><br>
+              <label for="malin-goetz">Malin Goetz</label><br>
               <input type="checkbox" name="manufacturers[]" id="murrays" value="5">
-              <label for="murrays">MURRAY'S</label><br>
+              <label for="murrays">Murray's</label><br>
               <input type="checkbox" name="manufacturers[]" id="american-crew" value="6" checked>
-              <label for="american-crew">AMERICAN CREW</label>
+              <label for="american-crew">American Crew</label>
             </div>
             <div class="product-types">
+              <h2>Группы товаров:</h2>
               <!-- value здесь тоже лучше задать перечислением -->
               <input type="radio" name="product" id="shaving" value="1">
-              <label for="shaving">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label><br>
+              <label for="shaving">Бритвенные принадлежности</label><br>
               <input type="radio" name="product" id="means" value="2">
-              <label for="means">СРЕДСТВА ДЛЯ УХОДА</label><br>
+              <label for="means"> Cредства для ухода</label><br>
               <input type="radio" name="product" id="accessories" value="3">
-              <label for="accessories">АКСЕССУАРЫ</label>
+              <label for="accessories">Аксессуары</label>
             </div>
             <button type="submit" class="btn">показать</button>
           </form>
@@ -85,45 +86,45 @@
         <section class="catalog-items">
           <div class="catalog-item">
             <img src="http://placehold.it/150x100" 
-              alt="Набор для путешествий BAXTER OF CALIFORNIA" width="150" height="100">
-            <div class="item-name">Набор для путешествий &laquo;BAXTER OF&nbsp;CALIFORNIA&raquo;</div>
-            <span class="item-price">2 900 РУБ.</span>
-            <a class="btn" href="#">КУПИТЬ</a>
+              alt="Набор для путешествий Baxter of California" width="150" height="100">
+            <div class="item-name">Набор для путешествий &laquo;Baxter of&nbsp;California&raquo;</div>
+            <span class="item-price">2 900 руб.</span>
+            <a class="btn" href="#">купить</a>
           </div>
           <div class="catalog-item">
             <img src="http://placehold.it/150x100" 
-              alt="Увлажняющий кондиционер BAXTER OF CALIFORNIA" width="150" height="100">
-            <div class="item-name">Увлажняющий кондиционер &laquo;BAXTER OF&nbsp;CALIFORNIA&raquo;</div>
-            <span class="item-price">750 РУБ.</span>
-            <a class="btn" href="#">КУПИТЬ</a>
+              alt="Увлажняющий кондиционер Baxter of California" width="150" height="100">
+            <div class="item-name">Увлажняющий кондиционер &laquo;Baxter of&nbsp;California&raquo;</div>
+            <span class="item-price">750 руб.</span>
+            <a class="btn" href="#">купить</a>
           </div>
           <div class="catalog-item">
             <img src="http://placehold.it/150x100" 
-              alt="Гель для волос SAUVECITO" width="150" height="100">
-            <div class="item-name">Гель для волос &laquo;SAUVECITO&raquo;</div>
-            <span class="item-price">290 РУБ.</span>
-            <a class="btn" href="#">КУПИТЬ</a>
+              alt="Гель для волос Suavecito" width="150" height="100">
+            <div class="item-name">Гель для волос &laquo;Suavecito&raquo;</div>
+            <span class="item-price">290 руб.</span>
+            <a class="btn" href="#">купить</a>
           </div>
           <div class="catalog-item">
             <img src="http://placehold.it/150x100" 
-              alt="Глина для укладки волос AMERICAN CREW" width="150" height="100">
-            <div class="item-name">Глина для укладки волос &laquo;AMERICAN CREW&raquo;</div>
-            <span class="item-price">500 РУБ.</span>
-            <a class="btn" href="#">КУПИТЬ</a>
+              alt="Глина для укладки волос American Crew" width="150" height="100">
+            <div class="item-name">Глина для укладки волос &laquo;American Crew&raquo;</div>
+            <span class="item-price">500 руб.</span>
+            <a class="btn" href="#">купить</a>
           </div>
           <div class="catalog-item">
             <img src="http://placehold.it/150x100" 
-              alt="Гель для волос AMERICAN CREW" width="150" height="100">
-            <div class="item-name">Гель для волос &laquo;AMERICAN CREW&raquo;</div>
-            <span class="item-price">300 РУБ.</span>
-            <a class="btn" href="#">КУПИТЬ</a>
+              alt="Гель для волос American Crew" width="150" height="100">
+            <div class="item-name">Гель для волос &laquo;American Crew&raquo;</div>
+            <span class="item-price">300 руб.</span>
+            <a class="btn" href="#">купить</a>
           </div>
           <div class="catalog-item">
             <img src="http://placehold.it/150x100" 
-              alt="Набор для бритья BAXTER OF CALIFORNIA" width="150" height="100">
-            <div class="item-name">Набор для бритья &laquo;BAXTER OF&nbsp;CALIFORNIA&raquo;</div>
-            <span class="item-price">3 900 РУБ.</span>
-            <a class="btn" href="#">КУПИТЬ</a>
+              alt="Набор для бритья Baxter of California" width="150" height="100">
+            <div class="item-name">Набор для бритья &laquo;Baxter of&nbsp;California&raquo;</div>
+            <span class="item-price">3 900 руб.</span>
+            <a class="btn" href="#">купить</a>
           </div>
           <nav class="catalog-navigation">
             <ul>
