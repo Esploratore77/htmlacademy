@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
      <header class="main-header">
@@ -10,7 +12,7 @@
         <nav class="main-navigation">
           <ul>
             <li>
-              <a href="#">Главная</a>
+              <a href="index.html">Главная</a>
             </li>
             <li>
               <a href="#">Информация</a>
@@ -19,10 +21,10 @@
               <a href="#">Новости</a>
             </li>
             <li>
-              <a href="#">Прайс-лист</a>
+              <a href="price-list.html">Прайс-лист</a>
             </li>
             <li class="active">
-              <a href="#">Магазин</a>
+              <span>Магазин</span>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -54,17 +56,19 @@
         </ul> 
       </nav>
       <section class="item">
-        <!-- Возможно preview имеет смысл сделать ссылками, что бы по клику они показывались как большая картинка,
-            но это не совсем понятно из задания.-->
         <div class="item-image">
           <figure>
-            <img src="http://placehold.it/150x100" alt="Набор для путешествий &laquo;Baxter of&nbsp;California&raquo;">
+            <img src="pictures/baxter.jpg" 
+                 alt="Набор для путешествий &laquo;Baxter of&nbsp;California&raquo;" width="458" height="496">
           </figure>
           <div>
-            <img class="preview" src="http://placehold.it/60x50" alt="Набор для путешествий: средства для умывания">
-            <img class="preview" src="http://placehold.it/60x50" alt="Набор для путешествий: косметичка">
+            <img class="preview" src="pictures/baxter-preview-1.jpg" 
+                 alt="Набор для путешествий: средства для умывания" width="140" height="146">
+            <img class="preview" src="pictures/baxter-preview-2.jpg" 
+                 alt="Набор для путешествий: косметичка" width="140" height="146">
             <img class="preview" 
-                 src="http://placehold.it/60x50" alt="Набор для путешествий &laquo;Baxter of&nbsp;California&raquo;">
+                 src="pictures/baxter-preview-3.jpg" 
+                 alt="Набор для путешествий &laquo;Baxter of&nbsp;California&raquo;" width="140" height="146">
           </div>
         </div>
         <div class="item-info">

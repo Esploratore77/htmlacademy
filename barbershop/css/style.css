@@ -1,0 +1,21 @@
+body {
+  /* Typography */
+  font-size: 14px;
+  font-family: "PT Sans Narrow Bold", Arial, sans-serif;
+  font-weight: bold;
+  color: #000000;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+h1 {
+  /* Typography */
+  font-size: 30px;
+  line-height: 42.33px;
+}
+
+h2 {
+  /* Typography */
+  font-size: 24px;
+  line-height: 42.33px;
+}
