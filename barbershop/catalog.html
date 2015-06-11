@@ -55,27 +55,49 @@
           <form action="/echo" method="post">
             <div class="manufacturers">
               <h2>Производители:</h2>
-              <input type="checkbox" name="manufacturers[]" id="baxter" value="1" checked>
-              <label for="baxter">Baxter of California</label><br>
-              <input type="checkbox" name="manufacturers[]" id="natty" value="2">
-              <label for="natty">Mr Natty</label><br>                          
-              <input type="checkbox" name="manufacturers[]" id="suavecito" value="3" checked>
-              <label for="suavecito">Suavecito</label><br>
-              <input type="checkbox" name="manufacturers[]" id="malin-goetz" value="4">
-              <label for="malin-goetz">Malin Goetz</label><br>
-              <input type="checkbox" name="manufacturers[]" id="murrays" value="5">
-              <label for="murrays">Murray's</label><br>
-              <input type="checkbox" name="manufacturers[]" id="american-crew" value="6" checked>
-              <label for="american-crew">American Crew</label>
+              <ul>
+                <li>
+                  <input type="checkbox" name="manufacturers[]" id="baxter" value="1" checked>
+                  <label for="baxter">Baxter of California</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="manufacturers[]" id="natty" value="2">
+                  <label for="natty">Mr Natty</label>
+                </li>                       
+                <li>
+                  <input type="checkbox" name="manufacturers[]" id="suavecito" value="3" checked>
+                  <label for="suavecito">Suavecito</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="manufacturers[]" id="malin-goetz" value="4">
+                  <label for="malin-goetz">Malin Goetz</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="manufacturers[]" id="murrays" value="5">
+                  <label for="murrays">Murray's</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="manufacturers[]" id="american-crew" value="6" checked>
+                  <label for="american-crew">American Crew</label>
+                </li>
+              </ul>
             </div>
             <div class="product-types">
               <h2>Группы товаров:</h2>
-              <input type="radio" name="product" id="shaving" value="1">
-              <label for="shaving">Бритвенные принадлежности</label><br>
-              <input type="radio" name="product" id="means" value="2">
-              <label for="means"> Cредства для ухода</label><br>
-              <input type="radio" name="product" id="accessories" value="3">
-              <label for="accessories">Аксессуары</label>
+              <ul>
+                <li>
+                  <input type="radio" name="product" id="shaving" value="1">
+                  <label for="shaving">Бритвенные принадлежности</label>
+                </li>
+                <li>
+                  <input type="radio" name="product" id="means" value="2">
+                  <label for="means"> Cредства для ухода</label>
+                </li>
+                <li>
+                  <input type="radio" name="product" id="accessories" value="3">
+                  <label for="accessories">Аксессуары</label>
+                </li>
+              </ul>
             </div>
             <button type="submit" class="btn">показать</button>
           </form>
