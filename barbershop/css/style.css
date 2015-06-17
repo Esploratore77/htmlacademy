@@ -27,7 +27,7 @@ h2 {
 }
 
 .container {
-  width: 960px;
+  width: 940px;
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
@@ -113,6 +113,70 @@ main {
 
 .footer-social {
   width: 140px;
+}
+
+.breadcrumbs ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1 {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.breadcrumbs {
+  margin-top: 28px;
+  margin-bottom: 62px;
+}
+
+.catalog-filter {
+  width: 220px;
+  float: left;
+}
+
+.catalog-filter ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.catalog-items {
+  float: right;
+  width: 700px
+}
+
+.catalog-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+}
+
+.catalog-item h2 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.catalog-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.catalog-navigation li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.catalog-navigation {
+  margin-top: 70px;
+  margin-bottom: 42px;
 }
 
   
