@@ -19,3 +19,100 @@ h2 {
   font-size: 24px;
   line-height: 42.33px;
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-header {
+  /*TODO: задать background*/
+}
+
+.main-navigation {
+  float: left;
+  width: 640px;
+}
+
+.main-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+}
+
+main {
+  /* TODO: задать background с фотографией Барбершопа */
+}
+
+.logo {
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 56px;
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.features-row {
+  margin-bottom: 80px;
+}
+
+.index-content {
+  margin-bottom: 36px;
+}
+
+.content-column-left, .content-column-right {
+  width: 460px;
+}
+
+.content-column-left {
+  float: left;
+}
+
+.content-column-right {
+  float: right;
+}
+
+.main-footer {
+  margin-top: 28px;
+}
+
+.footer-contacts, .footer-social, .footer-copyright {
+  float: left;
+}
+
+.footer-contacts, .footer-social {
+  margin-right: 80px;
+}
+
+.footer-contacts, .footer-copyright {
+  width: 320px;
+}
+
+.footer-social {
+  width: 140px;
+}
+
+  
