@@ -1,4 +1,6 @@
 body {
+  width: 1200px;
+  margin: 0 40px 0;
   /* Typography */
   font-size: 14px;
   font-family: "PT Sans Regular", Arial, sans-serif;
@@ -15,4 +17,76 @@ h2 {
   color: #000000;
   line-height: 26px;
   text-transform: uppercase;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.main-navigation li {
+  display: inline-block;
+  width: 20%;
+  font-size: 14px;
+  vertical-align: baseline;
+  text-align: center;
+}
+
+.welcome-image {
+  height: 514px;
+  background-image: url('../img/bg-welcome-to-sedona.jpg');
+  background-size: 100% 514px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.welcome-image img {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
+.heading h2, .heading p {
+  text-align: center;
+}
+
+.column2 {
+  width: 33%;
+}
+
+.column4 {
+  width: 67%;
+}
+
+.column-left {
+  float: left;
+}
+
+.column-right {
+  float: right;
+}
+
+.hotel-reservation h2, .hotel-reservation p {
+  text-align: center;
+}
+
+.search-for-hotel .btn {
+  display: block;
+  width: 570px;
+  height: 86px;
+  margin: 0 auto;
+}
+
+.search-form {
+  width: 570px;
+  height: 396px;
+  margin: 0 auto;
 }
