@@ -18,7 +18,8 @@
           </li>
           <li>
             <a href="index.html">
-              <img class="logo" src="img/logo-sedona-768.png" alt="City of Sedona" width="135" height="68">
+              <!--<img class="logo" src="img/logo-sedona-768.png" alt="City of Sedona" width="135" height="68">-->
+              Sedona Logo
             </a>
           </li>
           <li>
@@ -32,9 +33,9 @@
     </header>
 
     <main class="main-content">
-      <div class="hotels-filter">
+      <div class="hotels-filter clearfix">
         <form action="/echo" method="post">
-          <div class="infrastructure">
+          <div class="infrastructure column2 column-left">
             <h2>Инфраструктура:</h2>
             <ul>
               <li>
@@ -51,7 +52,7 @@
               </li>
             </ul>
           </div>
-          <div class="hotel-type">
+          <div class="hotel-type column2 column-left">
             <h2>Тип жилья:</h2>
             <ul>
               <li>
@@ -69,7 +70,7 @@
             </ul>
           </div>
           <!-- Правая колонка формы (со слайдером и кнопкой submit) -->
-          <div>
+          <div class="column2 column-left">
             <div class="price-slider">
               <h2>Стоимость в сутки(р):</h2>
               <input type="text" name="mincost" placeholder="От 0">
@@ -80,9 +81,11 @@
         </form>
       </div>
       <div class="search-summary">
-        <div class="heading">
-          <h2>Найдено: 3</h2>
-          <div class="sort-type">
+        <div class="clearfix">
+          <div class="total-found column2 column-left">
+            <h2>Найдено: 3</h2>
+          </div>
+          <div class="sort-type column4 column-right">
             <span>Сортировка:</span>
             <ul>
               <li>
@@ -96,66 +99,71 @@
               </li>
             </ul>
           </div>
-          <div class="sort-order">
+          <!--<div class="sort-order">
             <a href="#">Возрастание</a>
             <a href="#">Убывание</a>
-          </div>
+          </div>-->
         </div>
         <div class="search-results">
-          <div class="search-result">
-            <div class="hotel-view">
+          <div class="search-result clearfix">
+            <div class="hotel-view column1 column-left">
               <img src="pictures/amara-view-768.jpg" alt="Amara Resort & Spa" width="134" height="90">
             </div>
-            <div class="hotel-info">
+            <div class="hotel-info column2 column-left">
               <h2>Amara Resort & Spa</h2>
               <div class="details">
                 <span>Гостиница</span>
+                <br>
                 <a class="btn details" href="#">Подробнее</a>
               </div>
               <div class="booking">
-                <span>От 3500 р.</span>
+                <span>От 3500 р.</span><br>
                 <a class="btn rent" href="#">Забронировать</a>
               </div>
             </div>
-            <div class="raiting">
+            <div class="raiting column1 column-right">
               <span>Рейтинг: 8,5</span>
             </div>
           </div>
-          <div class="search-result">
-            <div class="hotel-view">
+          <div class="search-result clearfix">
+            <div class="hotel-view column1 column-left">
               <img src="pictures/desert-quail-view-768.jpg" alt="Desert Quail Inn" width="134" height="90">
             </div>
-            <div class="hotel-info">
+            <div class="hotel-info column2 column-left">
               <h2>Desert Quail Inn</h2>
               <div class="details">
                 <span>Мотель</span>
+                <br>
                 <a class="btn details" href="#">Подробнее</a>
               </div>
               <div class="booking">
                 <span>От 2000 р.</span>
+                <br>
                 <a class="btn rent" href="#">Забронировать</a>
               </div>
             </div>
-            <div class="raiting">
+            <div class="raiting column1 column-right">
               <span>Рейтинг: 8,9</span>
             </div>
           </div>
-          <div class="search-result">
-            <div class="hotel-view">
+          <div class="search-result clearfix">
+            <div class="hotel-view column1 column-left">
               <img src="pictures/poco-diablo-view-768.jpg" alt="Villas at Poco Diablo" width="134" height="90">
             </div>
-            <div class="hotel-info">
+            <div class="hotel-info column2 column-left">
               <h2>Villas at Poco Diablo</h2>
               <div class="details">
                 <span>Апартаменты</span>
+                <br>
                 <a class="btn details" href="#">Подробнее</a>
               </div>
               <div class="booking">
                 <span>От 4000 р.</span>
+                <br>
                 <a class="btn rent" href="#">Забронировать</a>
               </div>
             </div>
-            <div class="raiting">
+            <div class="raiting column1 column-right">
               <span>Рейтинг: 9,2</span>
             </div>
           </div>
@@ -163,9 +171,9 @@
       </div>
     </main>
 
-  <footer class="main-footer">
-    <div class="hash-tag">#visitsedona</div>
-    <div class="footer-social">
+  <footer class="main-footer clearfix">
+    <div class="hash-tag column2 column-left">#visitsedona</div>
+    <div class="footer-social column2 column-left">
       <div>
         <a class="twitter" href="#">
           Twitter
@@ -182,7 +190,7 @@
         </a>
       </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright column2 column-left">
       <a href="#">
         <span>Website by</span>
       </a>

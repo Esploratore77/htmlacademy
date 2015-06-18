@@ -58,6 +58,10 @@ h2 {
   text-align: center;
 }
 
+.column1 {
+  width: 16.5%;
+}
+
 .column2 {
   width: 33%;
 }
@@ -89,4 +93,31 @@ h2 {
   width: 570px;
   height: 396px;
   margin: 0 auto;
+}
+
+.total-found h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.sort-type ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.sort-type li {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.hotel-info h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-info .details, .hotel-info .booking {
+  display: inline-block;
 }
