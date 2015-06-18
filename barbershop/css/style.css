@@ -263,4 +263,62 @@ section.item {
   list-style-position: inside;
 }
 
+.motto {
+  width: 940px;
+  margin-bottom: 70px;
+}
+
+.used-production {
+  float: left;
+  width: 300px;
+}
+
+.our-price {
+  float: right;
+  width: 480px;
+}
+
+.used-production h2 {
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+.used-production ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.our-price h2 {
+  width: 220px;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+.our-price td {
+  width: 230px;
+  border: 2px solid black;
+}
+
+.about-us {
+  margin-top: 70px;
+  margin-bottom: 85px;
+}
+
+.about-us h2 {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.about-us .column-left, .about-us .column-right {
+  width: 380px;
+}
+
+.about-us .column-left {
+  float: left;
+}
+
+.about-us .column-right {
+  float: right;
+}
   
