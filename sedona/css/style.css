@@ -154,6 +154,10 @@ h2 {
   background: #81b3d2;
 }
 
+.with-picture h2 {
+  color: #ffffff;
+}
+
 .advantage h2 {
   width: 152px;
   margin: 0 auto;
