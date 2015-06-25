@@ -71,42 +71,18 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  text-align: center;
 }
 
-.welcome-image .welcome {
-  position: absolute;
-  top: 15%;
-  left: 42%;
-}
-
-.welcome-image .gorgeous {
-  position: absolute;
-  top: 26%;
-  left: 43%;
-}
-
-.welcome-image .dash {
-  position: absolute;
-  top: 28%;
-  left: 39%;
-}
-
-.welcome-image .sedona {
-  position: absolute;
-  top: 42%;
-  left: 31%;
-}
-
-.welcome-image .sucks {
-  position: absolute;
-  top: 69%;
-  left: 37%;
+.welcome-to-sedona {
+  padding-top: 75px;
 }
 
 .welcome-image .welcome-bottom {
   position: absolute;
-  left: 0;
+  left: -1px;;
   bottom: 0px;
+  width: 102%;
 }
 
 .heading h2, .heading p {
@@ -128,11 +104,11 @@ h2 {
 }
 
 .column2 {
-  width: 33%;
+  width: 33.3333333%;
 }
 
 .column4 {
-  width: 67%;
+  width: 66.6666667%;
 }
 
 .column-left {
@@ -224,6 +200,11 @@ h2 {
   text-align: center;
 }
 
+.hotel-reservation p {
+  width: 397px;
+  margin: 0 auto;
+}
+
 .search-for-hotel {
   margin-top: 44px;
 }
@@ -292,34 +273,34 @@ h2 {
   opacity: 0.9;
 }
 
-.hash-tag {
-  box-sizing: border-box;
-  padding-top: 47px;
-  padding-left: 132px;
+.hash-tag p {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
+  text-align: center;
+  padding-top: 26px;
 }
 
 .footer-social {
   box-sizing: border-box;
-  padding-top: 35px;
-  padding-left: 127px;
+  padding-top: 36px;
+  padding-left: 123px;
+  font-size: 0;
 }
 
 .footer-social a {
   display: inline-block;
-  width: 48px;
-  height: 50px;
-  margin-right: 1px;
+  width: 45px;
+  height: 48px;
+  margin-right: 8px;
   background-color: #81b3d2;
-  text-indent: -9999px; 
+  font-size: 14px; 
 }
 
 .footer-copyright {
   box-sizing: border-box;
   padding-top: 34px;
-  padding-left: 111px;
+  padding-left: 102px;
 }
 
 .footer-copyright a {
